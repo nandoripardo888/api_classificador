@@ -100,7 +100,7 @@ class Clusterizador:
                 "disponibilidade": row['disponibilidade']
             })
         
-        return json.dumps(result, ensure_ascii=False)
+        return result
 
     def initialize_from_file(self, file_path):
         """
