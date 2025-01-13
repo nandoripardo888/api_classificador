@@ -1,0 +1,864 @@
+[
+    {
+        "nome": "Sofia Duarte",
+        "habilidades": [
+            "Operação de Equipamentos de Resgate",
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Suporte Básico de Vida (BLS)",
+            "Comunicação Eficaz"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "manhã",
+            "tarde"
+        ],
+        "recursos": [
+            "Geradores de Energia",
+            "Recursos Financeiros para Emergências",
+            "Medicamentos Básicos",
+            "Água Potável"
+        ]
+    },
+    {
+        "nome": "Ronaldo Duarte",
+        "habilidades": [
+            "Resgate em Áreas Urbanas",
+            "Gestão de Água e Saneamento",
+            "Primeiros Socorros",
+            "Uso de Equipamentos de Proteção Individual (EPI)"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde",
+            "noite"
+        ],
+        "recursos": [
+            "Rádios de Comunicação",
+            "Roupas de Proteção e EPIs",
+            "Geradores de Energia",
+            "Cobertores e Sacos de Dormir"
+        ]
+    },
+    {
+        "nome": "Renata Peixoto",
+        "habilidades": [
+            "Coordenação com Autoridades",
+            "Conhecimento de Riscos Naturais",
+            "Navegação e Orientação",
+            "Comunicação Eficaz",
+            "Suporte Básico de Vida (BLS)"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Lanternas e Pilhas",
+            "Recursos Financeiros para Emergências",
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Roupas de Proteção e EPIs"
+        ]
+    },
+    {
+        "nome": "Priscila Andrade",
+        "habilidades": [
+            "Noções de Construção Temporária",
+            "Conhecimento de Riscos Naturais",
+            "Operação de Equipamentos de Resgate",
+            "Navegação e Orientação",
+            "Distribuição de Alimentos",
+            "Comunicação Eficaz"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite",
+            "tarde"
+        ],
+        "recursos": [
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Lanternas e Pilhas",
+            "Kits de Ferramentas Multiuso",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Equipamentos de Sinalização (cones, fitas)",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Computadores e Tablets para Gestão de Dados"
+        ]
+    },
+    {
+        "nome": "Aline Martins",
+        "habilidades": [
+            "Planejamento de Evacuação",
+            "Identificação de Perigos",
+            "Gestão de Abrigos Temporários"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Equipamentos de Purificação de Água",
+            "Computadores e Tablets para Gestão de Dados",
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Extintores de Incêndio"
+        ]
+    },
+    {
+        "nome": "Larissa Rocha",
+        "habilidades": [
+            "Habilidades Básicas de Carpintaria",
+            "Logística e Distribuição",
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Prevenção de Infecções",
+            "Operação de Rádios e Comunicações",
+            "Trabalho em Equipe"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "noite",
+            "tarde"
+        ],
+        "recursos": [
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Lanternas e Pilhas",
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Veículos de Resgate (ambulâncias, barcos)"
+        ]
+    },
+    {
+        "nome": "Vanessa Ferreira",
+        "habilidades": [
+            "Gestão de Água e Saneamento",
+            "Conhecimento de Protocolos de Emergência",
+            "Gestão de Emergências",
+            "Habilidades Básicas de Carpintaria",
+            "Coordenação com Autoridades"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Rádios de Comunicação",
+            "Computadores e Tablets para Gestão de Dados",
+            "Geradores de Energia",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Extintores de Incêndio"
+        ]
+    },
+    {
+        "nome": "Camila Alves",
+        "habilidades": [
+            "Navegação e Orientação",
+            "Desenhista",
+            "Logística e Distribuição",
+            "Coordenação com Autoridades",
+            "Gestão de Água e Saneamento"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "tarde",
+            "noite"
+        ],
+        "recursos": [
+            "Kits de Primeiros Socorros",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Kits de Ferramentas Multiuso",
+            "Água Potável",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Computadores e Tablets para Gestão de Dados",
+            "Alimentos Não Perecíveis"
+        ]
+    },
+    {
+        "nome": "Eduardo Cardoso",
+        "habilidades": [
+            "Resgate em Áreas Urbanas",
+            "Operação de Rádios e Comunicações",
+            "Habilidades Básicas de Carpintaria"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "tarde",
+            "noite"
+        ],
+        "recursos": [
+            "Barracas e Abrigos Temporários",
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Cobertores e Sacos de Dormir",
+            "Equipamentos de Purificação de Água",
+            "Roupas de Proteção e EPIs",
+            "Rádios de Comunicação"
+        ]
+    },
+    {
+        "nome": "Renata Franco",
+        "habilidades": [
+            "Trabalho em Equipe",
+            "Prevenção de Infecções",
+            "Coordenação com Autoridades",
+            "Noções de Construção Temporária"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "tarde",
+            "noite"
+        ],
+        "recursos": [
+            "Água Potável",
+            "Equipamentos de Sinalização (cones, fitas)",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Lanternas e Pilhas",
+            "Kits de Higiene Pessoal",
+            "Kits de Ferramentas Multiuso"
+        ]
+    },
+    {
+        "nome": "Tatiana Lima",
+        "habilidades": [
+            "Operação de Equipamentos de Resgate",
+            "Trabalho em Equipe",
+            "Suporte Básico de Vida (BLS)",
+            "Coordenação com Autoridades"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Rádios de Comunicação",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)"
+        ]
+    },
+    {
+        "nome": "Larissa Moreira",
+        "habilidades": [
+            "Coordenação com Autoridades",
+            "Gestão de Água e Saneamento",
+            "Apoio Psicológico",
+            "Adaptabilidade e Resiliência",
+            "Distribuição de Alimentos",
+            "Conhecimento de Riscos Naturais"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "manhã",
+            "noite"
+        ],
+        "recursos": [
+            "Roupas de Proteção e EPIs",
+            "Kits de Ferramentas Multiuso",
+            "Cobertores e Sacos de Dormir",
+            "Lanternas e Pilhas",
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Geradores de Energia"
+        ]
+    },
+    {
+        "nome": "Vanessa Ribeiro",
+        "habilidades": [
+            "Prevenção de Infecções",
+            "Gestão de Água e Saneamento",
+            "Conhecimento de Riscos Naturais",
+            "Trabalho em Equipe",
+            "Gestão de Emergências",
+            "Adaptabilidade e Resiliência"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Extintores de Incêndio",
+            "Geradores de Energia",
+            "Computadores e Tablets para Gestão de Dados"
+        ]
+    },
+    {
+        "nome": "Gabriel Viana",
+        "habilidades": [
+            "Gestão de Emergências",
+            "Coordenação com Autoridades",
+            "Prevenção de Infecções"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "manhã"
+        ],
+        "recursos": [
+            "Medicamentos Básicos",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Rádios de Comunicação",
+            "Kits de Ferramentas Multiuso",
+            "Recursos Financeiros para Emergências",
+            "Kits de Higiene Pessoal"
+        ]
+    },
+    {
+        "nome": "Gustavo Viana",
+        "habilidades": [
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Primeiros Socorros",
+            "Logística e Distribuição",
+            "Planejamento de Evacuação",
+            "Distribuição de Alimentos"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Lanternas e Pilhas",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Geradores de Energia",
+            "Kits de Ferramentas Multiuso"
+        ]
+    },
+    {
+        "nome": "Gabriel Oliveira",
+        "habilidades": [
+            "Apoio Psicológico",
+            "Habilidades Básicas de Carpintaria",
+            "Noções de Construção Temporária",
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Planejamento de Evacuação",
+            "Prevenção de Infecções"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "manhã"
+        ],
+        "recursos": [
+            "Roupas de Proteção e EPIs",
+            "Lanternas e Pilhas",
+            "Alimentos Não Perecíveis",
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Rádios de Comunicação",
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Computadores e Tablets para Gestão de Dados"
+        ]
+    },
+    {
+        "nome": "Débora Gomes",
+        "habilidades": [
+            "Navegação e Orientação",
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Gestão de Água e Saneamento"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "manhã",
+            "tarde"
+        ],
+        "recursos": [
+            "Barracas e Abrigos Temporários",
+            "Roupas de Proteção e EPIs",
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Extintores de Incêndio",
+            "Cobertores e Sacos de Dormir",
+            "Lanternas e Pilhas",
+            "Kits de Ferramentas Multiuso"
+        ]
+    },
+    {
+        "nome": "Tatiana Gomes",
+        "habilidades": [
+            "Comunicação Eficaz",
+            "Primeiros Socorros",
+            "Resgate Aquático",
+            "Trabalho em Equipe",
+            "Uso de Equipamentos de Proteção Individual (EPI)"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "manhã",
+            "tarde"
+        ],
+        "recursos": [
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Água Potável",
+            "Kits de Primeiros Socorros"
+        ]
+    },
+    {
+        "nome": "Natália Cavalcanti",
+        "habilidades": [
+            "Gestão de Abrigos Temporários",
+            "Comunicação Eficaz",
+            "Trabalho em Equipe"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Equipamentos de Purificação de Água",
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Roupas de Proteção e EPIs",
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Rádios de Comunicação",
+            "Computadores e Tablets para Gestão de Dados",
+            "Sistemas de Saneamento Básico (banheiros químicos)"
+        ]
+    },
+    {
+        "nome": "Leonardo Bezerra",
+        "habilidades": [
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Identificação de Perigos",
+            "Navegação e Orientação",
+            "Gestão de Água e Saneamento",
+            "Resgate em Áreas Urbanas",
+            "Trabalho em Equipe"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "tarde",
+            "manhã"
+        ],
+        "recursos": [
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Kits de Higiene Pessoal",
+            "Kits de Primeiros Socorros",
+            "Equipamentos de Purificação de Água",
+            "Recursos Financeiros para Emergências",
+            "Materiais de Construção Temporária (lonas, madeira)"
+        ]
+    },
+    {
+        "nome": "Juliana Cavalcanti",
+        "habilidades": [
+            "Resgate Aquático",
+            "Operação de Rádios e Comunicações",
+            "Identificação de Perigos",
+            "Uso de Equipamentos de Proteção Individual (EPI)",
+            "Prevenção de Infecções"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Medicamentos Básicos",
+            "Mapas e GPS",
+            "Lanternas e Pilhas",
+            "Kits de Primeiros Socorros",
+            "Barracas e Abrigos Temporários",
+            "Equipamentos de Sinalização (cones, fitas)",
+            "Rádios de Comunicação"
+        ]
+    },
+    {
+        "nome": "Fábio Monteiro",
+        "habilidades": [
+            "Logística e Distribuição",
+            "Distribuição de Alimentos",
+            "Resgate Aquático",
+            "Coordenação com Autoridades",
+            "Gestão de Abrigos Temporários"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Barracas e Abrigos Temporários",
+            "Kits de Primeiros Socorros",
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Equipamentos de Purificação de Água",
+            "Extintores de Incêndio",
+            "Sistemas de Saneamento Básico (banheiros químicos)"
+        ]
+    },
+    {
+        "nome": "Gabriel Teixeira",
+        "habilidades": [
+            "Planejamento de Evacuação",
+            "Adaptabilidade e Resiliência",
+            "Gestão de Água e Saneamento",
+            "Gestão de Emergências",
+            "Operação de Rádios e Comunicações"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde",
+            "noite"
+        ],
+        "recursos": [
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Rádios de Comunicação",
+            "Mapas e GPS",
+            "Geradores de Energia",
+            "Kits de Primeiros Socorros"
+        ]
+    },
+    {
+        "nome": "Carla Tavares",
+        "habilidades": [
+            "Comunicação Eficaz",
+            "Gestão de Abrigos Temporários",
+            "Noções de Construção Temporária"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Medicamentos Básicos",
+            "Kits de Ferramentas Multiuso",
+            "Kits de Primeiros Socorros",
+            "Mapas e GPS",
+            "Barracas e Abrigos Temporários",
+            "Computadores e Tablets para Gestão de Dados",
+            "Sistemas de Saneamento Básico (banheiros químicos)"
+        ]
+    },
+    {
+        "nome": "Renata Franco",
+        "habilidades": [
+            "Noções de Construção Temporária",
+            "Navegação e Orientação",
+            "Gestão de Emergências",
+            "Logística e Distribuição",
+            "Trabalho em Equipe",
+            "Habilidades Básicas de Carpintaria"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Geradores de Energia",
+            "Kits de Higiene Pessoal",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Equipamentos de Resgate (cordas, capacetes, ferramentas)",
+            "Água Potável",
+            "Kits de Primeiros Socorros",
+            "Mapas e GPS"
+        ]
+    },
+    {
+        "nome": "Aline Nascimento",
+        "habilidades": [
+            "Resgate Aquático",
+            "Trabalho em Equipe",
+            "Identificação de Perigos",
+            "Gestão de Abrigos Temporários"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "noite",
+            "tarde"
+        ],
+        "recursos": [
+            "Água Potável",
+            "Kits de Ferramentas Multiuso",
+            "Medicamentos Básicos",
+            "Materiais de Construção Temporária (lonas, madeira)"
+        ]
+    },
+    {
+        "nome": "Rafael Pires",
+        "habilidades": [
+            "Operação de Rádios e Comunicações",
+            "Logística e Distribuição",
+            "Noções de Construção Temporária"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Kits de Ferramentas Multiuso",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Veículos de Resgate (ambulâncias, barcos)"
+        ]
+    },
+    {
+        "nome": "Carolina Ribeiro",
+        "habilidades": [
+            "Trabalho em Equipe",
+            "Primeiros Socorros",
+            "Conhecimento de Riscos Naturais"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Geradores de Energia",
+            "Recursos Financeiros para Emergências",
+            "Barracas e Abrigos Temporários",
+            "Computadores e Tablets para Gestão de Dados"
+        ]
+    },
+    {
+        "nome": "Felipe Freitas",
+        "habilidades": [
+            "Logística e Distribuição",
+            "Adaptabilidade e Resiliência",
+            "Conhecimento de Riscos Naturais",
+            "Operação de Rádios e Comunicações"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "noite",
+            "tarde"
+        ],
+        "recursos": [
+            "Kits de Primeiros Socorros",
+            "Lanternas e Pilhas",
+            "Computadores e Tablets para Gestão de Dados",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Veículos de Resgate (ambulâncias, barcos)"
+        ]
+    },
+    {
+        "nome": "Miguel Batista",
+        "habilidades": [
+            "Operação de Equipamentos de Resgate",
+            "Planejamento de Evacuação",
+            "Coordenação com Autoridades",
+            "Conhecimento de Protocolos de Emergência",
+            "Navegação e Orientação",
+            "Operação de Rádios e Comunicações"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "manhã"
+        ],
+        "recursos": [
+            "Rádios de Comunicação",
+            "Alimentos Não Perecíveis",
+            "Recursos Financeiros para Emergências",
+            "Barracas e Abrigos Temporários",
+            "Medicamentos Básicos"
+        ]
+    },
+    {
+        "nome": "Aline Xavier",
+        "habilidades": [
+            "Coordenação com Autoridades",
+            "Resgate em Áreas Urbanas",
+            "Gestão de Emergências",
+            "Trabalho em Equipe",
+            "Resgate Aquático"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "noite"
+        ],
+        "recursos": [
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Rádios de Comunicação",
+            "Barracas e Abrigos Temporários",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Kits de Ferramentas Multiuso"
+        ]
+    },
+    {
+        "nome": "André Neves",
+        "habilidades": [
+            "Noções de Construção Temporária",
+            "Identificação de Perigos",
+            "Operação de Equipamentos de Resgate",
+            "Gestão de Emergências",
+            "Comunicação Eficaz"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "noite",
+            "tarde"
+        ],
+        "recursos": [
+            "Kits de Ferramentas Multiuso",
+            "Roupas de Proteção e EPIs",
+            "Geradores de Energia",
+            "Cobertores e Sacos de Dormir",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)"
+        ]
+    },
+    {
+        "nome": "Débora Andrade",
+        "habilidades": [
+            "Trabalho em Equipe",
+            "Prevenção de Infecções",
+            "Gestão de Abrigos Temporários",
+            "Coordenação com Autoridades",
+            "Resgate em Áreas Urbanas"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "noite",
+            "manhã"
+        ],
+        "recursos": [
+            "Geradores de Energia",
+            "Roupas de Proteção e EPIs",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Kits de Primeiros Socorros"
+        ]
+    },
+    {
+        "nome": "Patrícia Ferreira",
+        "habilidades": [
+            "Apoio Psicológico",
+            "Gestão de Abrigos Temporários",
+            "Suporte Básico de Vida (BLS)",
+            "Uso de Equipamentos de Proteção Individual (EPI)"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "manhã",
+            "tarde"
+        ],
+        "recursos": [
+            "Mapas e GPS",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Lanternas e Pilhas",
+            "Geradores de Energia"
+        ]
+    },
+    {
+        "nome": "Luiza Martins",
+        "habilidades": [
+            "Apoio Psicológico",
+            "Noções de Construção Temporária",
+            "Resgate Aquático"
+        ],
+        "urgencia": "baixa",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Kits de Ferramentas Multiuso",
+            "Rádios de Comunicação",
+            "Alimentos Não Perecíveis",
+            "Equipamentos de Purificação de Água",
+            "Equipamentos de Sinalização (cones, fitas)"
+        ]
+    },
+    {
+        "nome": "Alexandre Freitas",
+        "habilidades": [
+            "Conhecimento de Riscos Naturais",
+            "Resgate Aquático",
+            "Operação de Equipamentos de Resgate",
+            "Operação de Rádios e Comunicações",
+            "Gestão de Abrigos Temporários"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "manhã",
+            "noite"
+        ],
+        "recursos": [
+            "Barracas e Abrigos Temporários",
+            "Materiais Educativos (guias de primeiros socorros, manuais)",
+            "Recursos Financeiros para Emergências",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Kits de Higiene Pessoal",
+            "Mapas e GPS"
+        ]
+    },
+    {
+        "nome": "Rafael Correia",
+        "habilidades": [
+            "Noções de Construção Temporária",
+            "Planejamento de Evacuação",
+            "Resgate Aquático",
+            "Gestão de Abrigos Temporários",
+            "Distribuição de Alimentos"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Veículos de Resgate (ambulâncias, barcos)",
+            "Rádios de Comunicação",
+            "Equipamentos de Proteção contra Intempéries (capas, botas)",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Sistemas de Saneamento Básico (banheiros químicos)",
+            "Roupas de Proteção e EPIs",
+            "Materiais Educativos (guias de primeiros socorros, manuais)"
+        ]
+    },
+    {
+        "nome": "Tatiana Macedo",
+        "habilidades": [
+            "Resgate Aquático",
+            "Identificação de Perigos",
+            "Noções de Construção Temporária",
+            "Coordenação com Autoridades",
+            "Distribuição de Alimentos"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "manhã",
+            "noite"
+        ],
+        "recursos": [
+            "Medicamentos Básicos",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Cobertores e Sacos de Dormir",
+            "Computadores e Tablets para Gestão de Dados"
+        ]
+    },
+    {
+        "nome": "Rafael Batista",
+        "habilidades": [
+            "Operação de Rádios e Comunicações",
+            "Conhecimento de Protocolos de Emergência",
+            "Adaptabilidade e Resiliência",
+            "Conhecimento de Riscos Naturais",
+            "Comunicação Eficaz"
+        ],
+        "urgencia": "media",
+        "disponibilidade": [
+            "tarde"
+        ],
+        "recursos": [
+            "Barracas e Abrigos Temporários",
+            "Desfibriladores Externos Automáticos (DEA)",
+            "Extintores de Incêndio",
+            "Materiais de Construção Temporária (lonas, madeira)",
+            "Equipamentos de Purificação de Água",
+            "Materiais Educativos (guias de primeiros socorros, manuais)"
+        ]
+    },
+    {
+        "nome": "Gabriel Farias",
+        "habilidades": [
+            "Comunicação Eficaz",
+            "Gestão de Água e Saneamento",
+            "Gestão de Abrigos Temporários",
+            "Logística e Distribuição"
+        ],
+        "urgencia": "alta",
+        "disponibilidade": [
+            "manhã"
+        ],
+        "recursos": [
+            "Equipamentos de Sinalização (cones, fitas)",
+            "Água Potável",
+            "Kits de Higiene Pessoal",
+            "Extintores de Incêndio",
+            "Computadores e Tablets para Gestão de Dados",
+            "Cobertores e Sacos de Dormir",
+            "Equipamentos de Purificação de Água"
+        ]
+    }
+]
