@@ -17,23 +17,30 @@ class ClusterAPI:
         data = request.json
         try:
             self.clusterizador.train(data)
-            return jsonify({"message": "Modelo treinado com sucesso!"}), 200
+            response = jsonify({"message": "Modelo treinado com sucesso!"})
+            response.headers["Content-Type"] = "application/json; charset=utf-8"
+            return response, 200
         except Exception as e:
-            return jsonify({"error": str(e)}), 500
+            response = jsonify({"error": str(e)})
+            response.headers["Content-Type"] = "application/json; charset=utf-8"
+            return response, 500
 
     def predict(self):
         data = request.json
         try:
             processed_input = self.clusterizador.preprocess_input(data)
             usuarios_favoraveis = self.clusterizador.predict(processed_input)
-            return jsonify({"usuarios_favoraveis": usuarios_favoraveis}), 200
+            response = jsonify({"usuarios_favoraveis": usuarios_favoraveis})
+            response.headers["Content-Type"] = "application/json; charset=utf-8"
+            return response, 200
         except ValueError as e:
-            return jsonify({"error": str(e)}), 400
+            response = jsonify({"error": str(e)})
+            response.headers["Content-Type"] = "application/json; charset=utf-8"
+            return response, 400
         except Exception as e:
-            return jsonify({"error": str(e)}), 500
-
-    def run(self, debug=False):
-        self.app.run(debug=debug)
+            response = jsonify({"error": str(e)})
+            response.headers["Content-Type"] = "application/json; charset=utf-8"
+            return response, 500
 
 # Criar uma instância da API e expor o objeto `app` para o Gunicorn
 api = ClusterAPI()
