@@ -69,12 +69,38 @@ class Clusterizador:
 
         normalized_data = self.scaler.transform(processed_data)
         return normalized_data
+    
 
     def predict(self, input_data):
         if self.kmeans is None:
             raise ValueError("Modelo não treinado.")
+        
         predicted_cluster = self.kmeans.predict(input_data)[0]
-        return self.df_original[self.df_original['cluster'] == predicted_cluster]['nome'].tolist()
+        
+        # Filtra os dados do cluster previsto
+        filtered_data = self.df_original[self.df_original['cluster'] == predicted_cluster]
+        
+        # Limita o número de registros retornados para entre 2 e 4
+        result_count = min(max(2, len(filtered_data)), 3)
+        
+        # Verifica se o número de registros disponíveis é menor que o desejado
+        if len(filtered_data) < result_count:
+            result_count = len(filtered_data)
+        
+        # Amostra aleatória sem reposição
+        filtered_data = filtered_data.sample(n=result_count, replace=False)
+        
+        # Cria o JSON com as colunas desejadas
+        result = []
+        for _, row in filtered_data.iterrows():
+            result.append({
+                "nome": row['nome'],
+                "habilidades": row['habilidades'],
+                "recursos": row['recursos'],
+                "disponibilidade": row['disponibilidade']
+            })
+        
+        return json.dumps(result, ensure_ascii=False)
 
     def initialize_from_file(self, file_path):
         """
